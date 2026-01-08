@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: func-store-core
+Version: 0.1.0
+Summary: Modular aiogram bot core
+Requires-Python: >=3.8
+Requires-Dist: pydantic-settings<=2.2.1
+Requires-Dist: pydantic<=2.6.1
+Requires-Dist: aiogram<=3.13.1
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
